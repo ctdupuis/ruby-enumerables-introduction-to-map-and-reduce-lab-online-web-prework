@@ -1,5 +1,5 @@
 def map_to_negativize(source_array)
-negarray = source_array.map { |source_array| source_array * -1}
+negarray = source_array.collect { |source_array| source_array * -1}
 return negarray
 end
 
